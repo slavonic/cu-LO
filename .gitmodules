@@ -1,0 +1,3 @@
+[submodule "cu-tex"]
+	path = cu-tex
+	url = https://github.com/slavonic/cu-tex.git
