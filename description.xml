@@ -5,7 +5,7 @@
             <license-text xlink:href="LICENSE" lang="en" />
         </simple-license>
     </registration>
-    <version value="1.0.1" />
+    <version value="1.2" />
     <identifier value="net.ponomar.sci.OOo-Dictionaries.cu-RU" />
     <display-name>
         <name lang="en">Church Slavic (Russia) hyphenation dictionary</name>
