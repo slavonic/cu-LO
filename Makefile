@@ -23,5 +23,5 @@ cu-LO.oxt:
 	rm -f hyph_cu_RU/2.tmp
 	rm -f hyph_cu_RU/1.tmp
 	rm -f substrings.pl
-	zip -rv cu-LO.oxt hyph_cu_RU META-INF description.xml dictionaries.xcu LICENSE README.md
+	zip -rv cu-LO.oxt hunspell-cu hyph_cu_RU META-INF description.xml dictionaries.xcu LICENSE README.md
 

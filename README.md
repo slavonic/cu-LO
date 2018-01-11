@@ -1,7 +1,7 @@
 # cu-LO
 Church Slavonic extensions for LibreOffice
 
-Includes Church Slavic (Church Slavonic) hyphenation dictionary for LibreOffice
+Includes Church Slavic (Church Slavonic) hyphenation and spelling dictionaries for LibreOffice.
 
 ## Requirements
 
@@ -24,8 +24,13 @@ Result should be a file `cu-LO.oxt` which you can then install into LibreOffice
 
 ## Documentation
 
-This dictionary is based on the TeX hyphenation patterns for Church Slavonic.
+The hyphenation dictionary is based on the TeX hyphenation patterns for Church Slavonic.
 See [cu-tex package hyphenation README](https://github.com/slavonic/cu-tex/tree/master/hyphenation) for more information.
+
+The spelling dictionary is based on the Hunspell spelling dictionary for Church Slavonic.
+Morphological analysis is not (yet) supported. See
+See [hunspell-cu package README](https://github.com/slavonic/hunspell-cu)
+for more information.
 
 ## Bugs
 
