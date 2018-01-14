@@ -9,6 +9,13 @@ Includes Church Slavic (Church Slavonic) hyphenation and spelling dictionaries f
   you will not be able to use it since the earlier versions do not have
   Church Slavic as an available locale)
 
+## Installation
+
+You can get the extension from the
+[Extensions website](https://extensions.libreoffice.org/extensions/church-slavonic-dictionary).
+Use this repository only if you want to change something
+and rebuild from source.
+
 ## Compilation Requirements
 
 To build from source, you will need
@@ -16,6 +23,7 @@ To build from source, you will need
 - Perl 5 installed 
 
 ## Quick Start
+
 To build LibreOffice extension, just do this:
 ```
 make
@@ -35,4 +43,7 @@ for more information.
 ## Bugs
 
 Report in issue tracker. Be sure to specify version of LO and platform.
+There are bugs with case folding and word boundary recognition for Cyrillic 
+in LibreOffice. It is hoped that these will be fixed in version 6.0.
+See the [issue tracker for LO](https://bugs.documentfoundation.org/show_bug.cgi?id=96343).
 
